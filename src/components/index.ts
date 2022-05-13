@@ -6,3 +6,8 @@ export { default as Item } from './landpages'
 export { default as Goal } from './goals'
 export { default as Requirements } from './requiry'
 export { default as List } from './list'
+export { default as ImgTxt } from './imgtxt'
+export { default as Accompany } from './accome'
+export { default as GirdPic } from './hoverpic'
+export { default as GridMain } from './girdpics'
+

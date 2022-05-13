@@ -14,6 +14,7 @@ export default function In() {
           </Typography>
         </a>
       </Link>
+
       <Link href={'/style/text'}>
         <a>
           <Typography variant="body-bold" className="text-primary-black hover:underline">
