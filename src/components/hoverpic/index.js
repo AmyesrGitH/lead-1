@@ -59,7 +59,7 @@ export const GirdPic = () => {
             variants={variants}
             transition={{ duration: 0.1 }}
           >
-            <Typography>Testtting</Typography>
+            <Typography variant="body-bold">Testtting</Typography>
           </motion.a>
           <motion.a
             className={`${hidden ? 'opacity-0' : 'opacity-1'} flex absolute ml-[32px] mt-[200px]`}
@@ -67,7 +67,7 @@ export const GirdPic = () => {
             variants={variants}
             transition={{ duration: 0.1 }}
           >
-            <Typography variant="Ag">Trying</Typography>
+            <Typography variant="body-bold">Trying</Typography>
           </motion.a>
         </div>
       </div>
