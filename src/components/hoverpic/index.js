@@ -59,15 +59,19 @@ export const GirdPic = () => {
             variants={variants}
             transition={{ duration: 0.1 }}
           >
-            <Typography variant="body-bold">Testtting</Typography>
+            <Typography className="text-white" variant="body-bold">
+              Сонгуулийн дата хакатон
+            </Typography>
           </motion.a>
           <motion.a
-            className={`${hidden ? 'opacity-0' : 'opacity-1'} flex absolute ml-[32px] mt-[200px]`}
+            className={`${hidden ? 'opacity-0' : 'opacity-1'} flex absolute ml-[32px] mt-[210px]`}
             animate={hidden ? 'invis' : 'vis'}
             variants={variants}
             transition={{ duration: 0.1 }}
           >
-            <Typography variant="body-bold">Trying</Typography>
+            <Typography className="text-white" variant="subhead">
+              Залуусын оролцоо
+            </Typography>
           </motion.a>
         </div>
       </div>

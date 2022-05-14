@@ -1,6 +1,7 @@
 import { MainLayout } from 'layout'
 import { GridMain, Typography } from 'components'
 import { TextBox } from 'components'
+import Landpage from 'components/landpages/land'
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-9">
+        <Landpage className="mx-auto max-w-leadScreen" />
         <GridMain></GridMain>
       </div>
     </MainLayout>
